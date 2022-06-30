@@ -2,7 +2,7 @@ import itertools
 import numpy as np
 from opt_einsum import contract, contract_expression, get_symbol
 import scipy.sparse.linalg as sla
-from mps import MPS
+from .mps import MPS
 
 class DMRG:
     def __init__(self, mpo, Dmax) -> None:
