@@ -2,7 +2,7 @@
 ## A density-matrix renormalization group engine for multi-particle states
 ### Features:
 - Optimisation of Hamiltonians for 1D quantum systems
-- Support for generic matrix product operators
+- Support for generic matrix product operators and automaton-based MPO construction
 - Computation of ground state energy, entanglement entropy and expectation values
 - Fast and optimally-ordered tensor contraction between MPS and MPOs via opt-einsum
 - Extremely readable, Pythonic structure
